@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="loginForm hidden"> 
+        <input type="text" placeholder="당신의 이름을 적어주세요." class="inputName">
+        <button class="loginButton">로그인</button>
+    </form>
+
+    <form class="todoListForm hidden">
+        <input type="text" placeholder="당신의 To Do List를 적어주세요." class="inputTodo">
+        <button class="addTodoList">추가</button>
+    </form>
+
+    <form class="todoListBox">
+        <ul class="todo-list"></ul>
+    </form>
+
+    <form class="clockForm">
+        <p class="year"></p>
+        <p class="day"></p>
+        <p class="clock"></p>
+    </form>
+    <form class="weatherForm">
+        <p class="weather"></p>
+    </form>
+    <form class="geoForm">
+        <p class="geo"></p>
+    </form>
+
+    <script src="./src/app.js"></script>
+</body>
+</html>

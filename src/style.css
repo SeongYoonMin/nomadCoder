@@ -1,0 +1,153 @@
+body {
+    background: url("../img/snowMountain.jpg");
+    position: relative;
+}
+
+.hidden{
+    display: none;
+}
+
+.loginForm {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.loginForm .inputName {
+    background-color: rgba(2, 7, 21, 0.7);
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 440px;
+    height: 30px;
+    color: white;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+.loginForm .loginButton {
+    margin-left: 5px;
+    background-color: rgba(2, 7, 21, 0.7);
+    border:none;
+    font-size: 14px;
+    height: 30px;
+    width: 50px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+    box-sizing: border-box;
+}
+.loginForm .loginButton:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(2, 7, 21);
+}
+
+.todoListForm {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.todoListForm .inputTodo {
+    background-color: rgba(2, 7, 21, 0.7);
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 440px;
+    height: 30px;
+    color: white;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+.todoListForm .addTodoList {
+    margin-left: 10px;
+    background-color: rgba(2, 7, 21, 0.7);
+    border:none;
+    font-size: 14px;
+    height: 30px;
+    width: 50px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+    box-sizing: border-box;
+}
+.todoListForm .addTodoList:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(2, 7, 21);
+}
+
+
+.todoListBox {
+    background-color: rgba(2, 7, 21, 0.7);
+    width: 500px;
+    height: 750px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.todoListBox .todo-list li{
+    font-size: 16px;
+    margin: 10px;
+    color: white;
+}
+.todoListBox .todo-list button{
+    float: right;
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.clockForm {
+    background-color: rgba(2, 7, 21, 0.7);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    color: white;
+    flex-direction: column;
+}
+.clockForm .day {
+    margin: 15px 0;
+}
+
+.weatherForm {
+    background-color: rgba(2, 7, 21, 0.7);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    top: 170px;
+    color: white;
+}
+
+.geoForm {
+    background-color: rgba(2, 7, 21, 0.7);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    top: 270px;
+    color: white;
+}
+
